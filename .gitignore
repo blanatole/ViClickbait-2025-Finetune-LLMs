@@ -130,8 +130,10 @@ dmypy.json
 
 # Project specific
 results/models/
-*.csv
 *.log
+# Ignore CSV files except results
+*.csv
+!results/experiments/*.csv
 .DS_Store
 .vscode/
 .idea/
